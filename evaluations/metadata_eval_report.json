@@ -1,0 +1,120 @@
+{
+  "system": "Gemini RAG (this project)",
+  "total_fields": 16,
+  "correct_fields": 16,
+  "overall_accuracy": 1.0,
+  "documents": [
+    {
+      "source": "GeM-Bidding-8778719.pdf",
+      "accuracy": 1.0,
+      "correct": 8,
+      "total": 8,
+      "fields": [
+        {
+          "field": "tender_id",
+          "expected": "GEM/2025/B/8778719",
+          "predicted": "GEM/2025/B/8778719",
+          "correct": true
+        },
+        {
+          "field": "organisation",
+          "expected": "Indian Navy",
+          "predicted": "Indian Navy",
+          "correct": true
+        },
+        {
+          "field": "department",
+          "expected": "Ministry of Defence",
+          "predicted": "Ministry of Defence",
+          "correct": true
+        },
+        {
+          "field": "project_title",
+          "expected": "Surgical Equipment",
+          "predicted": "Supply of Surgical Equipment",
+          "correct": true
+        },
+        {
+          "field": "estimated_value",
+          "expected": "5,00,000",
+          "predicted": "Rs. 5,00,000",
+          "correct": true
+        },
+        {
+          "field": "emd_amount",
+          "expected": "10,000",
+          "predicted": "Rs. 10,000",
+          "correct": true
+        },
+        {
+          "field": "bid_deadline",
+          "expected": "15-04-2026",
+          "predicted": "15-04-2026",
+          "correct": true
+        },
+        {
+          "field": "location",
+          "expected": "Mumbai",
+          "predicted": "Mumbai",
+          "correct": true
+        }
+      ]
+    },
+    {
+      "source": "GeM-Bidding-9029086.pdf",
+      "accuracy": 1.0,
+      "correct": 8,
+      "total": 8,
+      "fields": [
+        {
+          "field": "tender_id",
+          "expected": "GEM/2025/B/9029086",
+          "predicted": "GEM/2025/B/9029086",
+          "correct": true
+        },
+        {
+          "field": "organisation",
+          "expected": "Indian Army",
+          "predicted": "Indian Army",
+          "correct": true
+        },
+        {
+          "field": "department",
+          "expected": "Ministry of Defence",
+          "predicted": "Ministry of Defence",
+          "correct": true
+        },
+        {
+          "field": "project_title",
+          "expected": "Office Furniture",
+          "predicted": "Supply of Office Furniture",
+          "correct": true
+        },
+        {
+          "field": "estimated_value",
+          "expected": "2,50,000",
+          "predicted": "Rs. 2,50,000",
+          "correct": true
+        },
+        {
+          "field": "emd_amount",
+          "expected": "5,000",
+          "predicted": "Rs. 5,000",
+          "correct": true
+        },
+        {
+          "field": "bid_deadline",
+          "expected": "20-05-2026",
+          "predicted": "20-05-2026",
+          "correct": true
+        },
+        {
+          "field": "location",
+          "expected": "Delhi",
+          "predicted": "Delhi",
+          "correct": true
+        }
+      ]
+    }
+  ]
+}
